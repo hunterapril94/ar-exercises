@@ -8,5 +8,5 @@ require_relative './exercise_6'
 
 puts "Exercise 7"
 puts "----------"
-
-# Your code goes here ...
+store9 = Store.create(name: "Kitsilano")
+puts store9.errors.messages
